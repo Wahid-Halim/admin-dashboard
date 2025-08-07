@@ -1,3 +1,4 @@
+import ChartBox from "./ChartBox";
 import TopDealsBox from "./TopDealsList";
 
 const HomeWrapper = () => {
@@ -6,9 +7,17 @@ const HomeWrapper = () => {
       <div className="box-border col-span-1 row-span-3 ">
         <TopDealsBox />
       </div>
-      <div className="box-border ">box2</div>
-      <div className="box-border ">box3</div>
-      <div className="box-border  row-span-3">box4</div>
+      <div className="box-border ">
+        <ChartBox />
+      </div>
+      <div className="box-border ">
+        {" "}
+        <ChartBox />
+      </div>
+      <div className="box-border  row-span-3">
+        {" "}
+        <ChartBox />
+      </div>
       <div className="box-border  ">box5</div>
       <div className="box-border ">box6</div>
       <div className="box-border  row-span-2 col-span-2">box7</div>

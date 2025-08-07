@@ -52,7 +52,7 @@ const Menu = () => {
     <div className="row-start-2 row-end-4 border-r-2 border-r-soft-bg h-screen px-4">
       {menu.map((item) => (
         <div className="item" key={item.id}>
-          <span className="title">{item.title}</span>
+          <span className="text-[12px] text-soft-color uppercase">{item.title}</span>
           {item.listItems.map((listItem) => (
             <NavLink
               to={listItem.url}
