@@ -8,9 +8,7 @@ import {
 // layout
 import AppLayout from "./layout/AppLayout";
 // pages
-import Home from "./pages/Home";
-import Users from "./pages/Users";
-import Products from "./pages/Products";
+import { Home, Users, Products } from "./pages/index";
 
 export const router = createBrowserRouter([
   {
@@ -23,6 +21,7 @@ export const router = createBrowserRouter([
       { path: "/products", element: <Products /> },
     ],
   },
+ 
 ]);
 
 export default router;

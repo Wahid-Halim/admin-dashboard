@@ -1,5 +1,11 @@
+import ChartContainer from "../components/ChartContainer";
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <section>
+      <ChartContainer />
+    </section>
+  );
 };
 
 export default Home;

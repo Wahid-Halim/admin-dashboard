@@ -1,1 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap");
+
 @import "tailwindcss";
+
+body {
+  font-family: "Mozilla Text", sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-main-color);
+}
+
+@theme {
+  --color-bg: #2a3447;
+  --color-soft-bg: #384256;
+  --color-dark-bg: #222b3c;
+
+  --color-main-color: white;
+  --color-soft-color: #ddd;
+  --color-dark-color: #2a3447;
+
+  /* Font family */
+  /* --font-family: "Mozilla Text", sans-serif; */
+}
+
+.max-container {
+  @apply w-full max-w-[1400px] px-4 py-6 mr-auto;
+}
