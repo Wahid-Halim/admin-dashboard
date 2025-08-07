@@ -24,3 +24,7 @@ body {
 .max-container {
   @apply w-full max-w-[1400px] px-4 py-6 mr-auto;
 }
+
+.box-border {
+  @apply border border-soft-bg rounded-sm;
+}

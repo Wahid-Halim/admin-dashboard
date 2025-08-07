@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="col-start-1 col-end-3 flex h-[60px] w-full justify-between items-center px-2">
+    <div className="col-start-1 col-end-3 flex h-[60px] w-full justify-between items-center px-2   ">
       <div className="flex items-center ">
         <img src="/logo.svg" alt="logo" />
         <span className="font-semibold">Admin dash</span>

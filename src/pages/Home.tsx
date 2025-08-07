@@ -1,9 +1,9 @@
-import ChartContainer from "../components/ChartContainer";
+import HomeWrapper from "../components/home/HomeWrapper";
 
 const Home = () => {
   return (
     <section>
-      <ChartContainer />
+      <HomeWrapper />
     </section>
   );
 };
